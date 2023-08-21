@@ -526,7 +526,10 @@ main {
 
 .footer-form {
    display: flex;
+   gap: 24px;
 }
+
+.footer-form-label {}
 
 .footer-form-titel {
    color: var(--white);
@@ -885,6 +888,7 @@ main {
 
 .modal-form-agreement {
    display: block;
+   width: 100%;
    font-size: 12px;
    line-height: 1.17;
    letter-spacing: 0.04em;
@@ -903,7 +907,11 @@ main {
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+input[type='checkbox']:checked + label > span {
+   background-color: var(--ocean);
+   border: none;
+   fill: var(--cloud);
+}
 
 .agrement-checkbox-icon {
    width: 10px;
@@ -921,11 +929,7 @@ main {
    user-select: none;
 }
 
-.modal-form-check:checked + .agreement-checkbox {
-   background-color: var(--ocean);
-   border: none;
-   fill: var(--cloud);
-}
+
 
 .modal-form-link {
    color: var(--iris);

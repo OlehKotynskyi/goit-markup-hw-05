@@ -526,11 +526,9 @@ main {
 
 .footer-form {
    display: flex;
-   flex-direction: column;
-   gap: 24px;
 }
 
-.footer-form-label {
+.footer-form-titel {
    color: var(--white);
    font-weight: 500;
    margin-bottom: 16px;
@@ -539,9 +537,6 @@ main {
    letter-spacing: 0.02em;
 }
 
-.footer-form-wrap {
-   display: flex;
-}
 
 .footer-form-imput {
    width: 264px;
@@ -926,7 +921,7 @@ main {
    user-select: none;
 }
 
-input[type='checkbox']:checked + .agreement-checkbox {
+.modal-form-check:checked + .agreement-checkbox {
    background-color: var(--ocean);
    border: none;
    fill: var(--cloud);

@@ -555,7 +555,6 @@ main {
    letter-spacing: 0.04em;
    color: var(--white);
    padding-left: 16px;
-   margin-right: 24px;
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -804,6 +803,7 @@ main {
 .modal-form {}
 
 .modal-form-wrap {
+
    margin-bottom: 8px;
 }
 
@@ -883,6 +883,7 @@ main {
 }
 
 .form-wrap-checkbox {
+
    margin-bottom: 24px;
 }
 
@@ -914,8 +915,8 @@ input[type='checkbox']:checked + label > span {
 }
 
 .agrement-checkbox-icon {
-   width: 10px;
-   height: 8px;
+   width: 16px;
+   height: 16px;
 }
 
 
